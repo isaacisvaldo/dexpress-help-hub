@@ -47,6 +47,14 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        dexpress: {
+          cyan: "hsl(var(--dexpress-cyan))",
+          dark: "hsl(var(--dexpress-dark))",
+          darker: "hsl(var(--dexpress-darker))",
+          card: "hsl(var(--dexpress-card))",
+          border: "hsl(var(--dexpress-border))",
+          muted: "hsl(var(--dexpress-muted))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
