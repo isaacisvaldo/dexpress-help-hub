@@ -15,6 +15,12 @@ export const Navigation = () => {
           
           <div className="hidden md:flex items-center space-x-6">
             <Link 
+              to="/sobre" 
+              className="text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Sobre Nós
+            </Link>
+            <Link 
               to="/faq" 
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
